@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-chat-bot';
+
+  links = [
+    { path: '/main', label: 'Головна', active: 'button-active'},
+    { path: '/chat', label: 'Чат', active: 'button-active'}
+  ];
 }
